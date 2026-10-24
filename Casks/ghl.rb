@@ -1,6 +1,6 @@
 cask "ghl" do
-  version "0.3.0"
-  sha256 "07c0de7cf5cdbea887fda80e3e1474035c1212d2146ed769b2881faa82f6be75"
+  version "0.3.1"
+  sha256 "3632528debd85bd2493add36b0840fc7305f4e6812f1538a5a9c9285bea693b9"
 
   url "https://github.com/vmaerten/ghl/releases/download/v#{version}/ghl_#{version}_darwin_arm64.zip"
   name "ghl"
