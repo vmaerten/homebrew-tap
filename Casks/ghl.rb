@@ -1,6 +1,6 @@
 cask "ghl" do
-  version "0.3.1"
-  sha256 "3632528debd85bd2493add36b0840fc7305f4e6812f1538a5a9c9285bea693b9"
+  version "0.4.0"
+  sha256 "223302fb4c481a267dc9f9982c2b61a44281b644ecb55f849e11f4f554825a40"
 
   url "https://github.com/vmaerten/ghl/releases/download/v#{version}/ghl_#{version}_darwin_arm64.zip"
   name "ghl"
@@ -19,7 +19,10 @@ cask "ghl" do
   end
 
   zap trash: [
-    "~/Library/Application Support/ghl",
     "~/Library/Application Support/ghl Desktop",
+    "~/Library/Application Support/ghl",
+    "~/Library/Caches/dev.ghl.desktop",
+    "~/Library/Preferences/dev.ghl.desktop.plist",
+    "~/Library/WebKit/dev.ghl.desktop",
   ]
 end
