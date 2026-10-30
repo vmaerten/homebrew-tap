@@ -1,11 +1,11 @@
 cask "diffdesk" do
-  version "0.9.0"
-  sha256 "fc8bcdd1bfe5c0c22756e776484b4803b961b7e909e5e3b2a4cb695ef5736515"
+  version "0.10.0"
+  sha256 "38ff47db5ff0ac0f0e327217cd86d4e61160bcbeedf2517d1dcffb11c17c57d6"
 
-  url "https://github.com/vmaerten/ghl/releases/download/v#{version}/diffdesk_#{version}_darwin_arm64.zip"
+  url "https://github.com/vmaerten/diffdesk/releases/download/v#{version}/diffdesk_#{version}_darwin_arm64.zip"
   name "Diffdesk"
   desc "Review the PR you are about to open, without opening it"
-  homepage "https://github.com/vmaerten/ghl"
+  homepage "https://github.com/vmaerten/diffdesk"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
