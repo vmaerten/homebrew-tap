@@ -1,6 +1,6 @@
 cask "epuisette" do
-  version "0.1.0"
-  sha256 "efb660d7807fb3861cc1ca8c88481516ac36501a3ea7a80dbf41509f734c54a2"
+  version "0.2.0"
+  sha256 "b6135e4bc6523d1e7aeb2e86b1648cb8f5717d790405648a448334dfdf2c2fd1"
 
   url "https://github.com/vmaerten/epuisette/releases/download/v#{version}/epuisette_#{version}_darwin_arm64.zip"
   name "Épuisette"
