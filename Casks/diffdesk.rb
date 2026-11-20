@@ -1,6 +1,6 @@
 cask "diffdesk" do
-  version "0.11.0"
-  sha256 "89da9304e4a3b4869b1995f3bea3870e52e3de4bc87756f76ea082e2b9e52ba4"
+  version "0.12.0"
+  sha256 "e13c1a4124e49bc4c3fb72c58f99f2c426d98801da4aca12a0b673305ce245dd"
 
   url "https://github.com/vmaerten/diffdesk/releases/download/v#{version}/diffdesk_#{version}_darwin_arm64.zip"
   name "Diffdesk"
